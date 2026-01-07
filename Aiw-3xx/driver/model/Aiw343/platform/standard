@@ -1,0 +1,3 @@
+gCfgPortSet="1:/dev/ttyUSB2"
+gCfgExistPortSet="/dev/ttyUSB2"
+gCfgCdcWdm="/dev/cdc-wdm0"

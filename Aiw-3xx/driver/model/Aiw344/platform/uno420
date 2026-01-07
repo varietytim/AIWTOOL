@@ -1,0 +1,4 @@
+gCfgPortSet="3:/dev/ttyUSB5:/dev/ttyUSB6:/dev/ttyUSB4"
+gCfgExistPortSet="/dev/ttyUSB5:/dev/ttyUSB6"
+#gDevComPortSet2="/dev/ttyUSB1:/dev/ttyUSB2"
+gCfgCdcWdm="/dev/cdc-wdm0"

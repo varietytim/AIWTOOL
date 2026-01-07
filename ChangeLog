@@ -1,0 +1,47 @@
+**************** AIW-Tool Change Log ***********************
+* Version: AIWS00LTX0317
+- Fixed issues:
+  1. MBIM device name changed cause malfunction
+- New features:
+  1. EWM-341 module support
+
+* Version: AIWS00LTX0316
+- Fixed issues:
+  1. [AIW-357] Fixed unable to register issue
+  
+* Version: AIWS00LTX0315
+- Fixed issues:
+  1. [AIW-357] bug 3486006 
+
+* Version: AIWS00LTX0314
+- Fixed issues:
+  1. AIW-357 AT port dynamic detect failure after reset is done
+  2. Auto connect fine tuned
+
+* Version: AIWS00LTX0313
+- Fixed issues:
+  1. [AIW-357] prolong reset waiting time for bug 3486003
+  2. [AIW-357] bug 3486004 and 3486005
+  3. [AIW-357] do power-off for bug 3486006 
+
+* Version: AIWS00LTX0312
+- Fixed issues:
+  1. [AIW-356-E01][ARK-1221] auto reconnect failed issue
+  2. setup.sh required excute twice to succeed issue in first time installation
+
+* Version: AIWS00LTX0311
+- Fixed issues:
+  1. [AIW-357DK-G2U][AFE-R750] SIM unlock failed when PIN code is set
+
+* Version: AIWS00LTX0310
+- Fixed issues:
+  1.	[AIW-357DK-G2U][ARK-1250L] MBIM Mode底下,透過./tool.sh GetIP 會抓到0.0.0.0. (RNDIS mode正常)
+  2.	[AIW-357DK-G2U][ARK-1250L] setup.sh 切到RNDIS Mode連線,會遇到GUI USB connection fail狀況發生
+	重開機後進到Ubuntu桌面後，大概1分鐘後Ethernet跟RNDIS interface/MBIM interface才會拿到IP並能夠出網
+  3.	[AIW-357DK-G2U][ARK-1250L] 系統重開機有時會遇到cdc-wdm0 serial port會變成cdc-wdm1 or cdc-wdm2,會造成以下error dial out失敗
+  4.	[AIW-356][AIR-030] SIM LOCK
+  5.    [AIW-344][MIC-713] 無法自動撥接
+- New features
+  1.    Support Ubuntu 24.04/22.04 LTS (kernel v6.8.0)
+  2.    Add AIW-343 MBIM mode
+

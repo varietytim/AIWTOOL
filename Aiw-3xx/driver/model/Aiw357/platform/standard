@@ -1,0 +1,3 @@
+# AIW-357 with USB interface
+gCfgPortSet="5:/dev/ttyUSB3:/dev/ttyUSB4:/dev/ttyUSB5:/dev/ttyUSB6:/dev/ttyUSB7"
+gCfgExistPortSet="/dev/ttyUSB3:/dev/ttyUSB4:/dev/ttyUSB5:/dev/ttyUSB6:/dev/ttyUSB7"

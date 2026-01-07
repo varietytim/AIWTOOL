@@ -1,0 +1,11 @@
+gPf_DialTemplate="ubuntu-mbim-dialout.sh"
+gPf_SetupTemplate="em9191-setup.sh"
+gPf_RmNetMode="9" # This is fake for monitor.sh
+gPf_MbimMode="4"
+gPf_VendorID="0x1199"
+gPf_ProductID="0x90d3"
+gPf_ApnMaxLen="62"
+gPf_PinMaxLen="32"
+gPf_UsrNameMaxLen="64"
+gPf_PwdMaxLen="64"
+gPf_ResetDelay="50"

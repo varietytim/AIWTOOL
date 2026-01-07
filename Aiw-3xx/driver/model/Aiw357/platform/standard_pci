@@ -1,0 +1,7 @@
+# AIW-357 with PCI interface
+gCfgPortSet="1:/dev/ttyC0"
+gCfgExistPortSet="/dev/ttyC0"
+gCfgCdcWdm="/dev/ttyCMBIM0"
+gCfgAtBaudrate="38400"
+gCfgAtCmdDelay=2
+#gCfgNetIface="ccmni0"
